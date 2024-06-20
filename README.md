@@ -1,1 +1,1 @@
-# sign-up-form
+This sign-up form created for The Odin Project demonstrates competency with basic form layouts, validation, and styling. It is not a functional form that submits to any server or database.

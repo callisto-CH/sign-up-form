@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sign-up Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="background-area">
+		<div class="logo-container">
+			<img src="images/odin-lined.png" />
+			Odin
+		</div>
+		<footer>
+			<a href="https://unsplash.com/photos/blue-and-brown-soil-zbai2Y1GBIw">Photo by Tom Barrett on Unsplash</a>
+		</footer>
+	</div>
+
+	<div class="form-area">
+		<div class="form-header">
+			<!-- Consider changing these to header elements -->
+			<p>This is not a real online service! You know you need
+			   something like this in your life to help you realize
+			   your deepest dreams. Sign up <em>now</em> to get
+			   started.</p>
+			<p>You <em>know</em> you want to.</p>
+		</div>
+		<div class="form-container">
+			<p>Let's do this!</p>
+			<form action="#" method="post" id="create-account">
+				<div class="form-input">
+					<label class="required" for="first_name">FIRST NAME</label>
+					<input type="text" id="first_name" name="first_name" placeholder="John" required/>
+				</div>
+
+				<div class="form-input">
+					<label class="required" for="last_name">LAST NAME</label>
+					<input type="text" id="last_name" name="last_name" placeholder="Doe" required/>
+				</div>
+
+				<div class="form-input">
+					<label class="required" for="email">EMAIL</label>
+					<input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required/>
+				</div>
+
+				<div class="form-input">
+					<label for="phone_number">PHONE NUMBER</label>
+					<input type="number" id="phone_number" name="phone_number" placeholder="(123) 456-7890" />
+				</div>
+
+				<div class="form-input">
+					<label class="required" for="password">PASSWORD</label>
+					<input type="password" id="password" name="password" required/>
+				</div>
+
+				<div class="form-input">
+					<label class="required" for="confirm_password">CONFIRM PASSWORD</label>
+					<input type="password" id="confirm_password" name="confirm_password" required/>
+				</div>
+			</form>
+		</div>
+		<input type="submit" class="submit" form="create-account" value="Create Account"></input>
+		<div class="log-in">
+			Already have an account?
+			<a href="#">Log in</a>
+		</div>
+	</div>
+</body>
+</html>
